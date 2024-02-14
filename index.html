@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="SRC/style.css" />
   </head>
   <body class="font-poppins">
-    <main class="min-h-screen bg-[#1E1E1E] bg-[url(../images/background.png)] bg-no-repeat bg-center ">
+    <main class="min-h-screen bg-[#010312] bg-[url(../images/background.png)] bg-no-repeat bg-center ">
       <!-- Home Start-->
-      <section class="">
+      <section class="hidden">
         <div class="text-white flex flex-col justify-center items-center h-screen gap-10">
           <h1 class="font-anton text-8xl">ALPHABET CLASH</h1>
           <p class="text-xl font-normal">Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
@@ -18,6 +18,75 @@
         </div>
       </section>
       <!-- Home End -->
+
+      <!-- Game Play Ground Start -->
+      <section class="space-y-20 pt-20 hidden">
+        <div class="flex flex-col  justify-center items-center">
+            <div class=" artboard artboard-horizontal phone-6 border-[20px] border-[#2A2740] rounded-lg  bg-[#f3f3f3B3]">
+                <div class="flex justify-center">
+                    <p class="text-xl text-white font-semibold bg-[#2A2740]  px-8 pb-3 rounded-b-lg">Don't watch keyboard  while playing...</p>
+                </div>
+                <div class="flex justify-center items-center h-full">
+                    <p class="text-7xl text-black font-semibold">Y</p>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="flex justify-center gap-1 my-1 w-full cursor-pointer ">
+                <kbd class="kbd hover:bg-[#FFA500]  w-14 h-12 text-xl">q</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-2xl">w</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-2xl">e</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-2xl">r</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-2xl">t</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-2xl">y</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-2xl">u</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-2xl">i</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-2xl">o</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-2xl">p</kbd>
+              </div> 
+              <div class="flex justify-center gap-1 my-1 w-full cursor-pointer">
+                <kbd class="kbd hover:bg-[#FFA500]  w-14 h-12 text-xl">a</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-xl">s</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-xl">d</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-xl">f</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-xl">g</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-xl">h</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-xl">j</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-xl">k</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-xl">l</kbd>
+              </div> 
+              <div class="flex justify-center gap-1 my-1 w-full cursor-pointer">
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-xl">z</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-xl">x</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-xl">c</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-xl">v</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-xl">b</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-xl">n</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-xl">m</kbd>
+                <kbd class="kbd hover:bg-[#FFA500] w-14 h-12 text-xl">/</kbd>
+              </div>
+        </div>
+        <div class="w-[80%] flex mx-auto  justify-between items-center">
+            <button class="btn bg-gradient-to-r from-[#914E91] to-[#894189] text-xl text-white font-medium rounded-full px-8 border-none">
+                Life
+               <img src="./images/life.svg" alt="">
+               <span>1</span>
+              </button>
+            <button class="btn bg-[#360490] text-xl text-white font-medium rounded-full px-8 border-none">
+                Score
+               <img src="./images/doller.svg" alt="">
+               <span>1</span>
+              </button>
+        </div>
+      </section>
+      <!-- Game Play Ground End -->
+      <section class="flex flex-col justify-center items-center h-screen ">
+        <div class="space-y-10 text-center p-14 rounded-lg bg-gradient-to-r from-[#dcdcdc12] to-[#FFFFFF33] bg-no-repeat">
+          <h1 class="text-7xl text-white font-semibold">Score : <span>21</span></h1>
+          <button class="text-xl text-black font-semibold bg-white px-8 py-3 rounded-lg">Play Again</button>
+          <p class="text-xl text-white font-semibold">Practice will make you Pro</p>
+        </div>
+      </section>
     </main>
   </body>
 </html>
